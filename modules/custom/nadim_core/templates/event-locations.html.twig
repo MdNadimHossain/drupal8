@@ -1,0 +1,13 @@
+<!-- templates/homepage.twig 
+  @file
+  Template file for event locations.
+-->
+
+<div id="event-locations">
+  <h1 class="header-title">{{ name }}</h1>
+  <ul class="location-list">
+    {% for location in locations %}
+      <li class="place-name">{{ location }}</li>
+    {% endfor %}
+  </ul>
+</div>
