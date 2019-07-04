@@ -1,0 +1,7 @@
+nadim_core.event_locations:
+  path: '/demo'
+  defaults:
+    _controller: '\Drupal\nadim_core\Controller\LocationsDemo::page'
+    _title: 'Demo location names'
+  requirements:
+    _permission: 'access content'
